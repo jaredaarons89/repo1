@@ -15,7 +15,9 @@ public class Demo
 		
 		rec.setHeight(height);
 		rec.setWidth(wid);
-		System.out.println(rec);
+		System.out.println(rec + " = " + rec.getArea());
+      
+      
 		
 	
 	}
