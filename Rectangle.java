@@ -5,7 +5,13 @@
    {
       private int height, width;
   
-		public Rectangle( )
+		   	//Constructor
+       public Rectangle (int hig, int wid)
+      {  height = hig;
+         width = wid;
+      }
+      
+      public Rectangle( )
 		{
 			height  = 1;
 			width   = 1;
